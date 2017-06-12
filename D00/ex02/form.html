@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mon formulaire</title>
+		<titre><h1>Mon site web</h1></titre>
+		<br></br>
+
+	</head>
+
+	<body method="post">
+
+		<form>
+
+			<label for="firstname">Firstname</label>
+			<input type="text" name="firstname" id="firstname"/>
+			<br></br>
+
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name"/>
+			<br></br>
+
+			<label for="phone">Phone</label>
+			<input type="tel" name="phone" id="phone"/>
+			<br></br>
+
+			<label for="age">Age</label>
+			<input type="number" maxlength="3" min="0" name="age" id="age"/>
+			<br></br>
+			
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email"/>
+			<br></br>
+			
+			<label for="gender">Gender</label><br>
+			<input type="radio" name="gender" value="male" cheked id="gender_male"> Male <br>
+  			<input type="radio" name="gender" value="female" id="gender_female"> Female <br>
+  			<input type="radio" name="gender" value="other" id="gender_other"> Other <br>
+			<br></br>
+
+			<label for="student42">Student at 42 ?</label>
+			<input type="checkbox" name="student42" id="student"/>
+			<br></br>
+
+			<script type="text/javascript" src="popup.js"></script>
+			<input type="button" value="Submit" onclick="displayFormContents();">
+
+		</form>
+
+	</body>
+</html>
