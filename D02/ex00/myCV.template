@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>CV automatique</title>
+<titre><h1>Mon CV<br></h1></titre><br><br>
+</head>
+
+<body>
+<b>Nom :</b> {name} <br>
+<b>Prenom :</b> {firstname} <br>
+<b>Age :</b> {age} <br>
+<b>Profession :</b> {profession}  <br><br>
+</body>
+
+<footer>
+X Milleron
+</footer>
+
+</html>

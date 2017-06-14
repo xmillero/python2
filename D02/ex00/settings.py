@@ -1,0 +1,5 @@
+titre = "Monsieur" 
+name = "Ducon"
+firstname = "Marcel"
+age = "91"
+job = "Buveur"
