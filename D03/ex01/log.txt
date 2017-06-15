@@ -1,0 +1,7 @@
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /var/folders/zz/zyxvpxvq6csfxvn_n0002l0m000mr5/T/pip-kxb1o66d-build
+Installing collected packages: path.py
+  Running setup.py install for path.py
+Successfully installed path.py
+You are using pip version 7.1.2, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
